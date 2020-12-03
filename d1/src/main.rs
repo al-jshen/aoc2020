@@ -1,7 +1,7 @@
 use std::{fs::File, io::BufRead, io::BufReader};
 
 fn main() {
-    let nums = file_to_vec("./src/input.txt");
+    let nums = file_to_vec("./input.txt");
     println!("{}", pt2(nums, 2020));
 }
 
